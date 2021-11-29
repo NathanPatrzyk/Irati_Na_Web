@@ -1,0 +1,23 @@
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #D0E4AE;
+    color: #194B32;
+    text-align: justify;
+}
+h1{
+    text-align: center;
+    background-color: #194B32;
+    color:#D0E4AE;
+}
+h2{
+    text-align: center;
+}
+.principal{
+    text-align: justify;
+    background-color: #194B32;
+    color:#D0E4AE;
+    padding: 12px;
+}
+.noticias{
+    text-align: left;
+}
