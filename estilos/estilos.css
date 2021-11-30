@@ -1,9 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 body{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: #D0E4AE;
     color: #194B32;
     text-align: justify;
     margin: 0;
+}
+h2::selection{
+    color: #D0E4AE;
+    background-color: #194B32;
+}
+h1::selection{
+    color: #194B32;
+    background-color: #D0E4AE;
 }
 h1{
     text-align: center;
@@ -42,9 +54,13 @@ nav{
     background-color: #194B32;
     color: #D0E4AE;
     margin: 0;
-    padding: 12px;
+    padding: 10px;
     position: fixed;
     width: 100%;
+    border: 0;
+}
+#home{
+    margin: 0;
 }
 nav ul li{
     display: inline-block;
@@ -78,4 +94,13 @@ span.destaque{
 .info a{
     color: #D0E4AE;
     text-decoration: underline;
+}
+.botao{
+    border: 1px #194B32;
+    border-radius: 2px;
+}
+.botao:hover{
+    border: 1px #D0E4AE;
+    background-color: #194B32;
+    border-radius: 2px;
 }
