@@ -1,8 +1,9 @@
 body{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: #D0E4AE;
     color: #194B32;
     text-align: justify;
+    margin: 0;
 }
 h1{
     text-align: center;
@@ -12,12 +13,69 @@ h1{
 h2{
     text-align: center;
 }
-.principal{
+p#principal{
     text-align: justify;
     background-color: #194B32;
     color:#D0E4AE;
-    padding: 12px;
+    padding: 20px;
+    margin: 0;
+}
+p{
+    padding: 20px;
+    margin: 0;
 }
 .noticias{
     text-align: left;
+    padding-left: 12px;
+}
+address{
+    padding: 20px;
+    font-style: italic;
+}
+img{
+    width: 400px;
+}
+a{
+    text-decoration: none;
+}
+nav{
+    background-color: #194B32;
+    color: #D0E4AE;
+    margin: 0;
+    padding: 12px;
+    position: fixed;
+    width: 100%;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    padding: 0px 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #D0E4AE;
+    padding: 4px;
+}
+nav ul li a:hover{
+    text-decoration: none;
+    background-color: #D0E4AE;
+    color: #194B32;
+    padding: 4px;
+    border-radius: 2px;
+}
+span.destaque{
+    font-weight: bold;
+    background-color:#194B32;
+    color:#D0E4AE;
+}
+.info{
+    background-color: #194B32;
+    color: #D0E4AE;
+    margin: 0;
+    padding: 20px;
+    margin-top: 20px;
+}
+.info a{
+    color: #D0E4AE;
+    text-decoration: underline;
 }
