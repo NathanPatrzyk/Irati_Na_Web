@@ -1,7 +1,4 @@
-*{
-    margin: 0;
-    padding: 0;
-}
+
 body{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: #D0E4AE;
@@ -55,7 +52,6 @@ nav{
     color: #D0E4AE;
     margin: 0;
     padding: 10px;
-    position: fixed;
     width: 100%;
     border: 0;
 }
@@ -95,12 +91,14 @@ span.destaque{
     color: #D0E4AE;
     text-decoration: underline;
 }
-.botao{
-    border: 1px #194B32;
-    border-radius: 2px;
+.botao a{
+    text-decoration: none;
+    color: #194B32;
+    border: 2px solid #194B32;
+    padding: 8px;
+    border-radius: 8px;
 }
-.botao:hover{
-    border: 1px #D0E4AE;
+.botao a:hover{
+    color: #D0E4AE;
     background-color: #194B32;
-    border-radius: 2px;
 }
