@@ -80,6 +80,7 @@ span.destaque{
     background-color:#194B32;
     color:#D0E4AE;
 }
+
 .info{
     background-color: #194B32;
     color: #D0E4AE;
@@ -87,10 +88,12 @@ span.destaque{
     padding: 20px;
     margin-top: 20px;
 }
+
 .info a{
     color: #D0E4AE;
     text-decoration: underline;
 }
+
 .botao a{
     text-decoration: none;
     color: #194B32;
@@ -98,6 +101,7 @@ span.destaque{
     padding: 8px;
     border-radius: 8px;
 }
+
 .botao a:hover{
     color: #D0E4AE;
     background-color: #194B32;
